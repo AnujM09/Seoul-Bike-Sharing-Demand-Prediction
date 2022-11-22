@@ -43,7 +43,7 @@ Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 
 * The data is finally scaled, and various techniques are tested. To improve accuracy, we first explored some straightforward models like the linear regressor and decision tree before moving on to more complicated algorithms like tree ensemble.
 
-* The linear regressor model did not perform well since there was little linear relationship between the independent and dependent variables. As a result, we switched to tree-based techniques, and performance significantly improved. Utilizing boosting and ensemble techniques as well as fine-tuning the hyperparameters, we continued to enhance the model's performance. The Random Forest Regressor model displayed the best performance.
+* The linear regressor model did not perform well since there was little linear relationship between the independent and dependent variables. As a result, the performance significantly improved. Utilizing boosting and ensemble techniques as well as fine-tuning the hyperparameters, we continued to enhance the model's performance. The XG Boost Regressor model displayed the best performance.
 
 * To avoid underfitting or overfitting, we observed various evaluation metrics together with the optimal collection of hyperparameters for the tested models. We also had a general understanding of the significance of each feature for each model.
 
